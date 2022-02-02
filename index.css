@@ -1,0 +1,55 @@
+/*index.css*/
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+h1{
+    font-size: 6em;
+    font-family: "Arvo" , cursive;
+    color: rgb(238, 241, 14);
+}
+
+.s{
+    background-image: url("assets/images/tom1.png");
+}
+.r{
+    background-image: url("assets/images/tom2.png");
+}
+.g{
+    background-image: url("assets/images/tom3.png");
+}
+.m{
+    background-image: url("assets/images/tom4.png");
+}
+.p{
+    background-image: url("assets/images/snare.png");
+}
+.d{
+    background-image: url("assets/images/crash.png");
+}
+.n{
+    background-image: url("assets/images/kick.png");
+}
+
+.drum{
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: "Arvo" , cursive;
+    font-weight: 500;
+    color:rgb(240, 23, 7);
+    outline: none;
+    border: 10px solid grey;
+    margin: 10px;
+    line-height: 2;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    text-shadow: 3px 0 whitesmoke;
+    border-radius: 15px;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #d6bab5;
+    opacity: 0.9;
+}
